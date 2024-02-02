@@ -20,8 +20,8 @@ public class Lists {
 		
 		System.out.println(arr);
 		
-		System.out.println("size: "+arr.size());;
-		System.out.println();
+		System.out.println("size: "+arr.size());
+		System.out.println("=========================");
 		
 		for (int i = 0; i < arr.size(); i++) {
 			System.out.println(i + ":"+arr.get(i));
@@ -30,12 +30,12 @@ public class Lists {
 		
 		String val = arr.remove(3);
 		System.out.println("remove "+val);
-		System.out.println();
+		System.out.println("=========================");
 		
 		for (String s : arr) {
 			System.out.println(s);
 		}
-		System.out.println();
+		System.out.println("=========================");
 		
 		// 배열 -> arraylist
 		// arrya -> list -> arraylist
@@ -52,8 +52,8 @@ public class Lists {
 		
 		System.out.println("list -> arralist: "+arrList.addAll(list2));	// addAll(Collecion)
 		 // array -> list 변환 후 수정X
-		System.out.println("add to arrList: "+arrList.add("Collect"));
-		System.out.println();
+		System.out.println("add 문자 to arrList: "+arrList.add("Collect"));
+		System.out.println("=========================");
 		
 		//arraylist == vector : 동시 접근 막음
 		List<Integer> sc = new Vector<Integer>();
