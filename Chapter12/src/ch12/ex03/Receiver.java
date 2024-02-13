@@ -1,3 +1,10 @@
+/*
+ * <파일 주고 받기>
+ * Receiver = Server
+ * port, filenmae
+ * 
+*/
+
 package ch12.ex03;
 
 import java.io.BufferedInputStream;
@@ -13,12 +20,6 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-/*
- * <파일 주고 받기>
- * Receiver = Server
- * port, filenmae
- * 
-*/
 public class Receiver {
 
 	public static void main(String[] args) throws IOException  {

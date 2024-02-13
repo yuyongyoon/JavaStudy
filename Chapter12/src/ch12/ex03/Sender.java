@@ -1,3 +1,10 @@
+/*
+ * <파일 주고 받기>
+ * Sender = Client
+ * serverIP, portNo, filenmae
+ * 
+*/
+
 package ch12.ex03;
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -12,12 +19,6 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketAddress;
 
-/*
- * <파일 주고 받기>
- * Sender = Client
- * serverIP, portNo, filenmae
- * 
-*/
 public class Sender {
 
 	public static void main(String[] args) throws IOException {
